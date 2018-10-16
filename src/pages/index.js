@@ -10,9 +10,9 @@ const IndexPage = () => (
       <svg width="100%" height="100%">
         <mask id="maskLayer">
             <rect width="100%" height="100%" fill="#fff"></rect>
-            <text x="0" y="50%" dy="0" textAnchor="middle" alignmentBaseline="central">
+            <text id="firstLine" x="0" y="50%" dy="0" textAnchor="middle" alignmentBaseline="central">
               <tspan x="50%" dy="0em">Dreams of</tspan>
-              <tspan x="50%" dy="1em">Scarlett</tspan>
+              <tspan id="secondLine" x="50%" dy="1em">Scarlett (Beta)</tspan>
             </text>
         </mask>
         <rect width="100%" height="100%" fill="#fff" mask="url(#maskLayer)"/>

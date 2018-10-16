@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Chivo:900');
 
 body {
   margin: 0;
@@ -24,7 +23,7 @@ body {
 .Hero video {
   display: table-cell;
   vertical-align: middle;
-  filter:blur(3px);
+/*  filter:blur(3px); */
   left: 0;
   width: 100%;
   height: 100%;
@@ -39,8 +38,25 @@ body {
   font-size: 100px;
 }
 
-.Hero #masked{
+.Hero #masked {
   mask:url('#maskLayer');
+}
+
+#firstLine {
+  animation: HeroAnimation 2s cubic-bezier(.2,0,.2,1) 3s forwards;
+} 
+
+@keyframes HeroAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+    scale: 0.8;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+    scale: 1;
+  }
 }
 
 @media (max-width: 800px) {
