@@ -12,7 +12,7 @@ const IndexPage = () => (
             <rect width="100%" height="100%" fill="#fff"></rect>
             <text id="firstLine" x="0" y="50%" dy="0" textAnchor="middle" alignmentBaseline="central">
               <tspan x="50%" dy="0em">Dreams of</tspan>
-              <tspan id="secondLine" x="50%" dy="1em">Scarlett (Beta)</tspan>
+              <tspan id="secondLine" x="50%" dy="1em">Scarlett (ℬ)</tspan>
             </text>
         </mask>
         <rect width="100%" height="100%" fill="#fff" mask="url(#maskLayer)"/>
